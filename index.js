@@ -1,9 +1,8 @@
 const rwClient = require("./twitterClient.js");
-const CronJob = require("cron").CronJob;
 
 const tweet = async() => {
     try {
-        await rwClient.v1.tweet("Vasco da Gama!");
+        await rwClient.v1.tweet("Vasco da Gama!!");
     } catch(e) {
         console.error(e)
     }
@@ -15,4 +14,3 @@ const tweet = async() => {
 }) */
 
 tweet()
-setInterval(tweet, 14400000);
