@@ -14,4 +14,4 @@ const tweet = async() => {
 }) */
 
 tweet()
-setInterval(tweet(), 43200000/3)
+//setInterval(tweet(), 43200000/3)
