@@ -8,10 +8,4 @@ const tweet = async() => {
     }
 }
 
-/* const job = new CronJob("0 5 * * * *", () => {
-    console.log('cron job starting');
-    tweet();
-}) */
-
 tweet()
-setInterval(tweet(), 43200000/3)
