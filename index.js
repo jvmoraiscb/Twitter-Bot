@@ -5,18 +5,12 @@ const tweets = ["Vasco!", "Vasco da Gama!", "Amor que não se explica, tudo pass
 const tweet = async() => {
     const string = "Au au (" + tweets[Math.floor(Math.random() * tweets.length)] + ")";
     try {
-<<<<<<< HEAD
         await rwClient.v1.tweet(string);
-=======
-        await rwClient.v1.tweet("Au au! (Vasco!)");
->>>>>>> 6288e8eb15f031d17454a774a56efa4d17156bee
     } catch(e) {
         console.error(e)
     }
 }
 
 tweet()
-<<<<<<< HEAD
 setTimeout(tweet, 1000*60*60)
-=======
->>>>>>> 6288e8eb15f031d17454a774a56efa4d17156bee
+
